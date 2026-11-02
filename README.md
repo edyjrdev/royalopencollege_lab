@@ -27,7 +27,7 @@ Ferramenta de acompanhamento de progresso da trilha completa de **Python, Ciênc
 
 | Status | Ordem | Fase | Nome da Fase | Curso | Conclusão |
 | :---: | :---: | :---: | :--- | :--- | :---: |
-| [ ] | 1 | 1 | Fundamentos de Python & Automação Básica | Python Programming Essentials for Beginners | - |
+| [ ] | 1 | 1 | Fundamentos de Python & Automação Básica | [Python Programming Essentials for Beginners](https://royalopencollege.org/courses/python-programming-essentials-for-beginners/) | - |
 | [ ] | 2 | 1 | Fundamentos de Python & Automação Básica | Python Logic and Text Processing Fundamentals | - |
 | [ ] | 3 | 1 | Fundamentos de Python & Automação Básica | Python Functions and Data Structures Masterclass | - |
 | [ ] | 4 | 1 | Fundamentos de Python & Automação Básica | Object-Oriented and Advanced Python Programming | - |
