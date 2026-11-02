@@ -1,5 +1,7 @@
 # 🎓 Royal Open College — Checklist de Acompanhamento de Cursos
 
+[RoyalOpenCollege](https://royalopencollege.org/)  
+
 Ferramenta de acompanhamento de progresso da trilha completa de **Python, Ciência de Dados, Machine Learning, Deep Learning, IA Generativa e MLOps**.
 
 ---
