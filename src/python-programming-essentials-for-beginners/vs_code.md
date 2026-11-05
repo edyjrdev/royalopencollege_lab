@@ -1,0 +1,62 @@
+# VS Code - Antigravity
+## Extension  
+- Python - Microsoft  + Python Deugger - Microsoft
+- Code Runner
+
+## Theme  
+- JellyFish  
+- GitHub Theme  
+
+## Settings
+Terminal › Integrated: Mouse Wheel Zoom [x]    
+File -> Autosave [x] 
+
+```JSON
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.suggest.enabled": true,
+    "python.useEnvironmentsExtension": false,
+    "terminal.integrated.env.windows": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1",
+        "PATH": "${env:USERPROFILE}\\.pyenv\\pyenv-win\\bin;${env:USERPROFILE}\\.pyenv\\pyenv-win\\shims;${env:USERPROFILE}\\.local\\bin;${env:PATH}"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "chcp 65001 > $null; [Console]::InputEncoding = [Console]::OutputEncoding = $OutputEncoding = [System.Text.UTF8Encoding]::new()"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+    "python.venvFolders": [
+        ".venv",
+        "venv"
+    ],
+    "python.poetryPath": "poetry",
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.focusAfterLaunch": true,
+    "python.terminal.launchArgs": [
+        "-X",
+        "utf8",
+        "-c",
+        "\"[__import__('os').system('cls'),__import__('runpy').run_path(__import__('sys').argv[1],run_name='__main__')]\""
+    ],
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.runInTerminal": false,
+    "code-runner.preserveFocus": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -X utf8 -u $fullFileName"
+    }
+}
+```
